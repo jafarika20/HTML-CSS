@@ -248,5 +248,55 @@
         <span>
             span 4
         </span>
+        <hr>
+        <!--Learn about class and id-->
+        <h3 style="text-align:center;">
+            class & id
+        </h3>
+        <p id="learn id">paragraph1</p>
+        <div style="padding: 10px;width: 100px; background-color: #eeeff0;">
+            <p class="learn-class">para1</p>
+            <p class="learn-class">para2</p>
+            <p class="learn-class">para3</p>
+            <p class="learn-class">para4</p>
+        </div>
+        <hr style="border-color: black;">
+        <h3 style="text-align: center;">form & input</h3>
+        <!--speack about <form> & <input>-->
+        <form action="">
+            <input type="text" size="40px"><br>
+            <input type="email"><br>
+            <input type="password"><br>
+            <input type="url"><br>
+            <input type="number" step="5" min="10" max="999999999999999999"><br>
+            <input type="date"><br>
+            <input type="file"><br>
+            <input type="time"><br>
+            <input type="range" min="0" max="100" step="10"><br>
+            <input type="search"><br>
+            <input type="tel"><br>
+            <input type="reset"><br>
+            <input type="week"><br>
+            <input type="submit">
+            <br>
+        </form>
+        <br>
+        <!--ویژگی های بیشتر برای تگ ورودی
+        اتربیوت نام در ورودی ها الزامیست
+        اتربیوت پلیس هولدر یک راهنما برای کاربر است
+        اتربیوت مقدار یا ولیو برای پر کردن به صورت پیش فرض مورد استفاده قرار میگیرد
+        -->
+        <form action="">
+            <!-- اتربیوت لیبل برای برچسب گذاری  استفاده میشود و
+              با اتربیوت فور ایدی ان را لینک میدهیم-->
+            <label for="user-name">user-name:</label>
+            <input id="user-name" type="text" name="user-name" placeholder="jjkaro">
+            <br>
+            <label for="password">password :</label>
+            <input id="password" type="password" value="123" name="password">
+            <br>
+            <input type="submit" value="send form" >
+        </form>
+        <hr style="border-color: blue;">
     </body>
 </html>
