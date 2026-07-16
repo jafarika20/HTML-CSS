@@ -298,5 +298,75 @@
             <input type="submit" value="send form" >
         </form>
         <hr style="border-color: blue;">
+        <!-- radio and checkbox -->
+        <h3 style="text-align: center;">
+            <b>
+                radio & checkbox
+            </b>
+        </h3>
+        <span>
+            choese your favorite language :
+        </span>
+        <br>
+        <!-- برای انتخاب کردن فقط بین یک گذینه
+          باید اسم های مشترکی انتخاب کرد 
+        -->
+        <!-- و برای تشخیص اینکه کدام زبان انتخاب شده میایم و برای هر یک
+         یک مقدار در نظر میگیریمتا مشکل حل بشود -->
+         <form action="">
+            <label for="html">
+                HTML
+            </label>
+            <input id="html"type="radio" name="language" value="html">
+            <label for="css">
+                CSS
+            </label>
+            <input id="java" type="radio" name="language" value="css">
+            <label for="java">
+                Java script
+            </label>
+            <input id="html"type="radio" name="language" value="java script">
+            <label for="python">
+                Python
+            </label>
+            <input id="python" type="radio" name="language" value="python">
+            <br>
+            <input type="submit" value="save" style="background-color: blue;">
+        </form>
+        <!-- checkbox -->
+         <span dir="rtl">
+            زبان های مورد علاقه خود را انتخاب کنید 
+         </span>
+        <form action="">
+            <label for="html">
+                HTML
+            </label>
+            <input id="html"type="checkbox" name="languages" value="html">
+            <label for="css">
+                CSS
+            </label>
+            <input id="java" type="checkbox" name="languages" value="css">
+            <label for="java">
+                Java script
+            </label>
+            <input id="html"type="checkbox" name="languages" value="java script">
+            <label for="python">
+                Python
+            </label>
+            <input id="python" type="checkbox" name="languages" value="python">
+            <br>
+            <input type="submit" value="save" style="background-color: blue;">
+        </form>
+        <br>
+        <!-- text area -->
+        <form action="">
+            <label for="text-area">
+                <b>textarea:</b>
+            </label>
+            <br>
+            <textarea name="user-comment" id="text-area" cols="50px" rows="30px">
+            </textarea><br>
+            <input type="submit">
+        </form>
     </body>
 </html>
