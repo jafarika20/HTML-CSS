@@ -1,0 +1,41 @@
+/*start External stylesheet*/
+/* element or # or . or div or input[typy:submit]
+{
+praperty:atrebute
+} */
+h1{
+    text-align: center;
+}
+h2{
+    color: red;
+}
+p{
+    color: navy;
+}
+/*change color id*/
+#para1{
+    color: black;
+}
+/* change color class */
+.strong-text{
+    color: brown;
+}
+/* change style for body */
+body{
+    direction:ltr;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+.my-first-class-to-style-div{
+    background-color: rgb(226, 211, 190);
+    border-right: 2px dotted;
+    border-bottom: 1px dashed red;
+    border-left: 5px solid green;
+}
+#about-me{
+    direction: rtl;
+    padding-top:60px;
+}
